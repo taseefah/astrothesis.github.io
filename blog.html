@@ -157,11 +157,6 @@
       margin-bottom: 0.5rem;
     }
 
-    .card-content .date {
-      font-size: 0.9rem;
-      color: #555;
-    }
-
     .card-link {
       text-decoration: none;
       color: inherit;
@@ -228,4 +223,33 @@
       </a>
 
       <a href="schwarzschildBlackHoles.html" class="card-link">
-        <div class="card
+        <div class="card">
+          <div class="card-image" style="background-image: url('IMG_6534.jpeg');"></div>
+          <div class="card-content">
+            <h2>the mathematics behind schwarzschild black holes</h2>
+            <p>Discover the mathematics behind these amazing celestial bodies.</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="starsTransformation.html" class="card-link">
+        <div class="card">
+          <div class="card-image" style="background-image: url('IMG_7648.png');"></div>
+          <div class="card-content">
+            <h2>what stars teach us about transformation</h2>
+            <p>Learn about the creation of stars and how that reflects on the changes we face in our lives.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-active');
+    });
+  </script>
+</body>
+</html>
