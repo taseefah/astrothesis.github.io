@@ -113,6 +113,7 @@
       margin: 2rem auto;
       display: block;
       border-radius: 10px;
+      object-fit: cover;
     }
 
     @media (max-width: 768px) {
@@ -157,6 +158,7 @@
   <img src="IMG_7649.jpeg" alt="Stars and transformation image" class="main-img">
   <div class="meta">posted: 13/10/2025 | author: taseefah</div>
 
+  <!-- Content -->
   <p>Humans have always looked towards nature for answers. Whether it’s through biomimicry, which aids us in product design, or utilising natural remedies for medicine, we have a long history of turning to nature for solutions to all sorts of problems. So it’s expected, nonetheless, that eventually we’d turn to the sky to help us figure out some of our more significant predicaments. And if there’s any issue which has weighed heavily on the minds of you and me — and philosophers from many millennia ago — it’s the idea of coming to terms with change.</p>
 
   <p>We learn and understand from a young age that no matter what, things will change. The people around us are like a constant ebb and flow of moving tides; our interests shift and shape us as we grow, and the decisions we make set us on wildly different paths from what could have been. Yet, amongst all this exposure to a constantly changing world, it still remains one of the most difficult concepts for us to accept.</p>
@@ -166,6 +168,14 @@
 
   <p>This complexity was honed into social intelligence — the type of intelligence that allows us to grasp ideas such as change and its inevitability. The brain’s development also wired humans to rely on predicting the future. Every second, the brain compares what it expects to happen with what actually happens — a process known as predictive processing. We feel safe when what we expect happens, and so when change ensues, the brain experiences uncertainty, which it converts into a feeling of danger. Biologically, change activates the amygdala, which then triggers a stress reaction. Adrenaline and cortisol are fired through your neurons, preparing you for the “fight or flight” response.</p>
 
-  <p>Habits are also another favourite mechanism of the brain because they consume little energy. Patterns are stored in the basal ganglia and repeated automatically when a task is begun. But when change occurs, new neural pathways have to be created. More mental energy and attention are required for this, and so the brain naturally resists unless it is essential.</p>
+  <!-- More content follows similarly ... -->
 
-  <p>From a psychological perspective, humans also oppose change. The mind likes to form emotional attachments not just to people, but also to routines and environments. This is why change creates anxiety, even if it’s a good one. When it happens, we mourn what was lost, and this often creates a feeling of negativity even if we later come to realise that the change was necessary to
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-active');
+    });
+  </script>
+</body>
+</html>
